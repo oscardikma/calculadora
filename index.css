@@ -1,0 +1,297 @@
+body {
+    display: flex;
+    overflow: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    height: 98vh;
+    background-color: rgba(0, 0, 0, 0.246);
+    border: 1px solid rgba(0, 0, 0, 0.243);
+
+}
+
+.calculadora .titulo {
+    font-size: 28px;
+  
+    text-align: center;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+  
+
+}
+
+.calculadora .subtitle {
+    font-size: 26px;
+    margin-top: 0;
+    
+}
+
+.calculadora .selections {
+    background-color: rgb(253, 253, 253);
+
+}
+
+.calculadora .selections select {
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+.calculadora input[type="number"] {
+    font-size: 20px;
+    font-weight: bold;
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.calculadora p {
+    font-size: 25px;
+}
+
+.calculadora #btn-calcular {
+    font-size: 22px;
+    margin-left: 40%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+
+#invest,
+#preco {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/*Estilo dos indicadores*/
+.kpis {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.139);
+    background-color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kpis .kpi {
+    width: 150px;
+    height:80px;
+    padding: 20px;
+    border: 1px solid rgba(255, 0, 0, 0.093);
+    background-color: rgba(11, 19, 19, 0.237);
+    box-shadow: 5px 5px 20px rgba(41, 40, 40, 0.364);
+    box-shadow: inset 5px 5px 6px rgba(129, 0, 0, 0.184);
+}
+
+.kpi .titulo3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#ROI,
+#PAYBACK {
+    color: rgba(37, 13, 13, 0.891);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.tables {
+    background-color: rgb(255, 255, 255);
+}
+
+.tables .titulo-table {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: black;
+    font-size: 30px;
+}
+
+.tables td {
+    width: 600px;
+    margin-left: 30px;
+    font-size: 28px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.298);
+
+
+}
+ 
+
+
+
+
+
+
+.nacionais {
+    background-color: #f0f0f0;
+    box-shadow: inset 500px 500px 200px rgba(63, 71, 70, 0.294);
+}
+
+
+
+.clientes .nacionais {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    width: 68vw;
+    height: 98vh;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+
+.nacionais .box {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #FFF;
+    background-image: center;
+    background-size: 102%;
+    flex-shrink: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/* arcelor */
+.nacionais .org1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background: url(res/arcelor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+/* cbmm */
+.nacionais .org2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background: url(res/cbmm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.org3 h4 {
+    margin-top: 135px;
+    background-color: #1f2d49a2;
+    width: 130px;
+    line-height: normal;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-left: 40px;
+    color: white;
+}
+
+/* ternium */
+.nacionais .org3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background: url(res/ternium.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+/* usiminas */
+.nacionais .org4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background: url(res/usiminas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+/* aperam */
+.nacionais .org5 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background: url(res/apream.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+/* csn */
+.nacionais .org6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background: url(res/csn.png) rgb(255, 255, 255) 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+/* belgo */
+.nacionais .org7 {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background: hsl(0, 0%, 100%);
+    background: url(res/belgo.png), rgb(255, 255, 255) 50%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+/* cba */
+.nacionais .org8 {
+    width: 155px;
+    height: 155px;
+    background: url(res/cba.png), #fff 50%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+/* suzano */
+.nacionais .org9 {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background: url(res/suzano.png)rgb(255, 255, 255) 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-shrink: 0;
+}
+
+/* gerdau */
+.nacionais .org10 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background: url(res/gerdau.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
